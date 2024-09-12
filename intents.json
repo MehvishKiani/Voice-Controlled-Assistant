@@ -1,0 +1,62 @@
+{
+    "intents": [
+        {
+            "tags": "greeting",
+            "patterns": [
+                "HI",
+                "Asalaumalikum",
+                "What's up?",
+                "Asalaumalikum How are you doing?"
+            ],
+            "responses": [
+                "Hey Sir",
+                "What can i do for you?"
+            ]
+        },
+        {
+            "tags": "Islam",
+            "patterns": [
+                "What is Islam?",
+                "Tell me about Islam",
+                "Who is the Prophet Muhammad?",
+                "What is the Quran?",
+                "What are the five pillars of Islam?",
+                "How do Muslims pray?",
+                "What is Ramadan?",
+                "Can you explain Hajj?",
+                "What is the significance of Eid al-Fitr?",
+                "What is Zakat in Islam?"
+            ],
+            "responses": [
+                "Islam is a monotheistic religion followed by Muslims.",
+                "Islam means submission to the will of Allah.",
+                "Prophet Muhammad is the last messenger of Allah in Islam.",
+                "The Quran is the holy book of Islam, believed to be the word of Allah.",
+                "The five pillars of Islam are Shahada, Salat, Zakat, Sawm, and Hajj.",
+                "Muslims pray five times a day facing the Kaaba in Mecca.",
+                "Ramadan is the ninth month of the Islamic lunar calendar, observed by fasting from dawn until sunset.",
+                "Hajj is the pilgrimage to the holy city of Mecca, a mandatory religious duty for Muslims.",
+                "Eid al-Fitr marks the end of Ramadan and is celebrated with prayers, feasts, and charity.",
+                "Zakat is the obligatory giving of a set percentage of one's wealth to charity in Islam."
+            ]
+        },
+        {
+            "tags": "name",
+            "patterns": [
+                "What is your name?",
+                "How should i call you?"
+            ],
+            "responses": [
+                "My name is Ashal!"
+            ]
+        },
+        {
+            "tags": "file",
+            "patterns": [
+                "Create a file",
+                "Create a new file"
+            ],
+            "responses": []
+        }
+    ]
+}
